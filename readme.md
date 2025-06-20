@@ -1,33 +1,72 @@
-## Sintaxe - Desafio
+# Projeto ContaBanco
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+![Java](https://img.shields.io/badge/Java-24-blue?style=for-the-badge&logo=java)
 
-1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
+## 📄 Descrição
 
-###### Revise sobre regras de declaração de variáveis
+**ContaBanco** é um projeto simples em Java desenvolvido como parte do desafio de Programação Orientada a Objetos da DIO (Digital Innovation One). A aplicação simula a abertura de uma conta bancária via terminal (console), solicitando ao usuário que insira dados como número da conta, agência, nome do cliente e saldo inicial. Ao final, o sistema exibe uma mensagem de confirmação com todas as informações fornecidas.
 
-| Atributo  | Tipo     | Exemplo   
-| --------- | ---------| ------- 
-| Numero    | Inteiro  | 1021 
-| Agencia   | Texto    | 067-8
-| Nome Cliente | Texto    | MARIO ANDRADE
-| Saldo | Decimal |237.48
+O principal objetivo deste projeto é praticar conceitos fundamentais da linguagem Java, como:
+- Declaração de variáveis e tipos de dados.
+- Utilização da classe `Scanner` para entrada de dados pelo terminal.
+- Concatenação de strings e exibição de mensagens formatadas no console.
+- Estrutura básica de um programa Java com o método `main`.
+
+---
+
+## 🚀 Funcionalidades
+
+- **Coleta de Dados**: O programa solicita interativamente que o usuário informe os seguintes dados:
+  - Número da Conta (inteiro)
+  - Código da Agência (texto)
+  - Nome do Cliente (texto)
+  - Saldo (decimal)
+- **Validação de Entrada**: O programa aguarda a inserção dos dados conforme solicitado.
+- **Exibição de Resultados**: Ao final, uma mensagem personalizada é exibida, confirmando a criação da conta com os dados informados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Java**: O projeto foi desenvolvido inteiramente em Java (versão 17 ou superior).
+- **Scanner**: Classe do pacote `java.util` utilizada para ler as entradas do usuário no terminal.
+
+---
 
 
-###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+## 💻 Exemplo de Uso
 
-* Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)*
+Ao executar o programa, o terminal solicitará as informações passo a passo. Abaixo está um exemplo de interação:
 
-###### Revise sobre concatenação e classe String com método concat
+```
+Bem-vindo ao Itaú Bank!
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+Insira o seu nome:
+Raylan Lopes
 
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+Insira o número da Agência:
+43243
 
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+Insira o digito verificador se houver:
+1
 
+Insira o número da Conta:
+23234
 
+Insira o digito verificador da conta bancária:
+1
 
+Insira o valor que deseja depositar:
+2371.48
+
+Olá Raylan Lopes, obrigado por criar uma conta em nosso banco, sua agência é 43243-1, conta 23234-1 e
+seu saldo de 2371.48 já está disponível para saque.
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Feito por Raylann Lopes** 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raylannlopes/)
